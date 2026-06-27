@@ -1,0 +1,6 @@
+{
+  "name": "Winger: Neurodiverse Study Buddy",
+  "description": "Your supportive AI desk companion and study manager for ADHD/Autism/Executive Dysfunction. Features gamified timers, AI task-demystifier step breakdown engines, low-pressure focus gauges, and brain-dump lockers.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

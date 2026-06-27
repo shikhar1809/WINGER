@@ -1,0 +1,103 @@
+{
+  "profile": {
+    "name": "",
+    "school": "University of Lucknow",
+    "neurotype": "ADHD",
+    "energyLevel": "Normal Focus",
+    "favoriteSubjects": [
+      "Computer Science",
+      "Creative Arts"
+    ],
+    "isOnboarded": false,
+    "emergencyMessage": "I feel unsafe. Winger SOS triggered. Please track my location immediately. Live audio evidence recording active.",
+    "trustedContacts": [
+      {
+        "id": "c1",
+        "name": "Anjali (Sister)",
+        "phone": "+91 99112 23344",
+        "relationship": "Sister"
+      },
+      {
+        "id": "c2",
+        "name": "Papa",
+        "phone": "+91 98761 12233",
+        "relationship": "Parent"
+      }
+    ],
+    "phone": "6386620642",
+    "isWorking": true
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Organic Chemistry Lab Report",
+      "minutes": 25,
+      "completed": false,
+      "steps": [
+        {
+          "text": "Open chemistry journal & locate laboratory note pages.",
+          "done": true
+        },
+        {
+          "text": "Write down the reactant weights and temperature charts.",
+          "done": false
+        },
+        {
+          "text": "Draft the reaction mechanism using molecular formulas.",
+          "done": false
+        },
+        {
+          "text": "Double-check experimental margins and write brief conclusion.",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Clean Desk & Set Up Study Light",
+      "minutes": 10,
+      "completed": true,
+      "steps": [
+        {
+          "text": "Clear old tea cups and sketches off the workspace.",
+          "done": true
+        },
+        {
+          "text": "Arrange textbooks in a cozy vertical reading pile.",
+          "done": true
+        },
+        {
+          "text": "Turn on ambient warm study light to set the focus mood.",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "brainDumps": [
+    {
+      "id": "b3",
+      "text": "Submit final thesis draft for Computer Science peer review (High impact long-term goal). 🔴",
+      "timestamp": "2026-06-15T08:00:00Z",
+      "zone": "red"
+    },
+    {
+      "id": "b4",
+      "text": "Complete Week 3 interactive algebra homework assignments. 🟡",
+      "timestamp": "2026-06-15T11:00:00Z",
+      "zone": "yellow"
+    },
+    {
+      "id": "b1",
+      "text": "Look up what kind of soil organic aloe vera thrives in during my study break. 🌱 🟢",
+      "timestamp": "2026-06-15T09:12:00Z",
+      "zone": "green"
+    },
+    {
+      "id": "b2",
+      "text": "Download that lo-fi synth album inspired by deep underwater coral reefs. ❄️",
+      "timestamp": "2026-06-15T11:45:00Z",
+      "zone": "chull"
+    }
+  ],
+  "nudgeHistory": []
+}

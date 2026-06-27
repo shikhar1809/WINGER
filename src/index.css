@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #6B21A8; /* Deep Purple */
+  --color-brand-accent: #7C3AED;  /* Electric Violet */
+  --color-brand-bg: #110F1A;      /* Super gorgeous elegant darker near-black background */
+  --color-brand-card: #1C1929;    /* Card background matching nighttime premium feel */
+  --color-brand-safe: #16A34A;    /* Safe Green */
+  --color-brand-danger: #DC2626;  /* Emergency Red */
+}
+
+/* Custom scrollbar to keep layout highly polished and clean */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #110F1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E2745;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #42356B;
+}
+
+/* Pulse keyframes for custom glowing safety visual assets */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(124, 58, 237, 0.8), 0 0 10px rgba(124, 58, 237, 0.4);
+  }
+}
+
+.glow-active {
+  animation: glow-pulse 2s infinite ease-in-out;
+}
+
